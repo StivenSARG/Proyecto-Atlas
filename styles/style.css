@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', sans-serif;
+
+}
+
 #start {
     background-image: url("../assets/images/banner-bk.jpg");
-    padding: 126px
+    background-size: cover;
+    background-position: center;
+    padding: 40px 80px 100px 80px;
+    min-height: 420px;
 }
 
 #start .header {
@@ -14,13 +22,49 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    margin-bottom: 80px;
 }
 
 #start .header img {
     width: 60px;
+}
 
+#start .header a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
 
+#start .start-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 500px;
+}
+
+#start .start-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+#start .start-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+#start .start-content button {
+    background-color: #00e5b0;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 #start .start-content {
@@ -39,18 +83,558 @@
     padding: 47px;
 }
 
-#section-firts .content{
+#section-firts .content {
     display: flex;
     flex-direction: row;
-    gap: 35px;  
-    
+    gap: 35px;
 }
 
-#section-firts .content .item{
-    
+#section-firts .content .item {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 7px;
-    
+    text-align: center;
 }
+
+#diagonal-section-two {
+
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 68px;
+}
+
+#diagonal-section-two .content {
+    display: flex;
+    align-items: center;
+}
+
+#diagonal-section-two .content button {
+    background-color: #1a1a2e;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+#diagonal-section-two .content .text {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    width: 663px;
+}
+
+#diagonal-section-two .content img {
+    width: 387px;
+}
+
+
+#section-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    padding: 0px 0px 40px;
+}
+
+
+
+#section-third .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+#section-third .content .plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 30px;
+}
+
+#section-third .plan span {
+    font-size: 52px;
+    font-weight: 800;
+    color: #1a1a2e;
+}
+
+#section-third .plan button {
+    padding: 12px;
+    border: 1px solid #1a1a2e;
+    background: white;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1a1a2e;
+    margin-top: 16px;
+
+}
+
+
+
+
+#section-third .content .plan-premiun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 30px;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+#section-third .plan-premiun span {
+    font-size: 52px;
+    font-weight: 800;
+    color: white;
+}
+
+#section-third .plan-premiun button {
+    padding: 12px;
+    border: 1px solid #1a1a2e;
+    background: #00e5b0;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1a1a2e;
+    margin-top: 16px;
+
+}
+
+#section-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    padding: 40px 80px;
+}
+
+#section-contact {
+
+    background-image: url("../assets/images/contact-bk.jpg");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 80px 100px 80px;
+    min-height: 420px;
+}
+
+#section-contact .Contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    width: 478px;
+}
+
+#section-contact .Contact-info h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+#section-contact .Contact-info p {
+   font-size: 14px;
+    color: white;
+    line-height: 1.6;
+}
+
+#section-contact .Contact {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;  
+}
+
+#section-contact .Contact button{
+    background-color: #00e5b0;
+    border-radius: 23px;
+    width: 416px;
+    height: 33px;
+    border: none;  
+}
+
+#section-contact .Contact .data{
+    display: flex;
+    flex-direction: row;
+    gap: 108px;   
+}
+
+#section-contact .Contact .data input{
+    border-color: #00e5b0;
+    width: 154px;
+    height: 34px;
+    background: transparent;  
+}
+
+#section-contact .Contact .mesage{
+    display: flex;
+    flex-direction: column;   
+}
+
+#section-contact .Contact .mesage input{
+    height: 56px;
+    width: 413px;
+    background: transparent;
+    border-color: #00e5b0;  
+}
+
+#footer{
+    
+    background-color: #111827;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+
+
+@media (max-width: 1279px) {
+
+    #start {
+        padding: 40px 50px 80px 50px;
+    }
+
+    #start .start-content h1 {
+        font-size: 38px;
+    }
+
+    #section-firts {
+        padding: 47px 40px;
+    }
+
+    #section-firts .content {
+        gap: 20px;
+    }
+
+    #diagonal-section-two .content {
+        padding: 60px 50px;
+        gap: 20px;
+    }
+
+    #diagonal-section-two .content .text {
+        width: 450px;
+    }
+
+    #diagonal-section-two .content img {
+        width: 320px;
+    }
+
+    #section-third .content {
+        gap: 60px;
+    }
+
+    #section-contact {
+        padding: 40px 50px 80px 50px;
+        gap: 40px;
+    }
+
+    #section-contact .Contact-info {
+        width: 360px;
+    }
+
+    #section-contact .Contact .data input {
+        width: 130px;
+    }
+
+    #section-contact .Contact .mesage input {
+        width: 370px;
+    }
+
+    #section-contact .Contact button {
+        width: 370px;
+    }
+}
+
+
+
+@media (max-width: 920px) {
+
+    /* HERO */
+    #start {
+        padding: 30px 30px 60px 30px;
+    }
+
+    #start .start-content h1 {
+        font-size: 32px;
+    }
+
+    #start .start-content p {
+        font-size: 13px;
+    }
+
+    #section-firts {
+        padding: 40px 20px;
+    }
+
+    #section-firts .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #section-firts .content .item {
+        max-width: 300px;
+    }
+
+    #diagonal-section-two {
+        padding: 0;
+        gap: 0;
+    }
+
+    #diagonal-section-two .content {
+        flex-direction: column;
+        align-items: center;
+        background: none;
+        padding: 50px 30px;
+        gap: 30px;
+    }
+
+    #diagonal-section-two .content.content-white {
+        background-color: #f9f9f9;
+    }
+
+    #diagonal-section-two .content.content-green {
+        background-color: #00e5b0;
+    }
+
+    #diagonal-section-two .content .text {
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #diagonal-section-two .content img {
+        width: 280px;
+    }
+
+    #section-third .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #section-third .content .plan,
+    #section-third .content .plan-premiun {
+        width: 280px;
+    }
+
+    #section-nav {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px 40px;
+    }
+
+    #section-nav img {
+        width: 80px;
+    }
+
+    #section-contact {
+        flex-direction: column;
+        padding: 50px 30px;
+        gap: 40px;
+    }
+
+    #section-contact .Contact-info {
+        width: 100%;
+    }
+
+    #section-contact .Contact .data {
+        gap: 20px;
+    }
+
+    #section-contact .Contact .data input {
+        width: 140px;
+    }
+
+    #section-contact .Contact .mesage input {
+        width: 100%;
+    }
+
+    #section-contact .Contact button {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    #footer {
+        flex-direction: column;
+        gap: 16px;
+        padding: 24px;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* HERO */
+    #start {
+        padding: 24px 20px 50px 20px;
+        min-height: 360px;
+    }
+
+    #start .header img {
+        width: 45px;
+    }
+
+    #start .header a {
+        font-size: 12px;
+    }
+
+    #start .start-content h1 {
+        font-size: 26px;
+    }
+
+    #start .start-content p {
+        font-size: 12px;
+    }
+
+    #start .start-content button {
+        padding: 12px 22px;
+        font-size: 13px;
+    }
+
+    #section-firts {
+        padding: 30px 16px;
+    }
+
+    #section-firts h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #section-firts .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    #diagonal-section-two .content {
+        padding: 40px 20px;
+    }
+
+    #diagonal-section-two .content .text h2 {
+        font-size: 22px;
+    }
+
+    #diagonal-section-two .content .text p {
+        font-size: 13px;
+    }
+
+    #diagonal-section-two .content img {
+        width: 220px;
+    }
+
+    #section-third {
+        padding: 0 16px 30px;
+    }
+
+    #section-third h2 {
+        font-size: 22px;
+    }
+
+    #section-third .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    #section-third .content .plan,
+    #section-third .content .plan-premiun {
+        width: 260px;
+        padding: 30px 20px;
+    }
+
+    #section-third .plan span,
+    #section-third .plan-premiun span {
+        font-size: 40px;
+    }
+
+    #section-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        padding: 24px 16px;
+    }
+
+    #section-nav img {
+        width: 70px;
+    }
+
+    #section-contact {
+        flex-direction: column;
+        padding: 40px 20px 60px;
+        gap: 30px;
+    }
+
+    #section-contact .Contact-info {
+        width: 100%;
+    }
+
+    #section-contact .Contact-info h2 {
+        font-size: 24px;
+    }
+
+    #section-contact .Contact {
+        width: 100%;
+        gap: 24px;
+    }
+
+    #section-contact .Contact .data {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #section-contact .Contact .data input {
+        width: 100%;
+        height: 38px;
+    }
+
+    #section-contact .Contact .mesage input {
+        width: 100%;
+        height: 60px;
+    }
+
+    #section-contact .Contact button {
+        width: 100%;
+        height: 38px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #footer {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 16px;
+        text-align: center;
+    }
+
+    #footer img {
+        width: 120px;
+    }
+}
+
